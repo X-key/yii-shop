@@ -1,0 +1,5 @@
+RewriteEngine on
+ 
+RewriteRule ^(.*)$ index.php?url=$1 [L]
+#RewriteCond %{HTTP_HOST} ^((.*).)avon-test\.com$  
+#RewriteRule ^(.*)$ index.php?subdomane=$1 [L]
